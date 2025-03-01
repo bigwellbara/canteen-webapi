@@ -12,4 +12,12 @@
     <PackageReference Include="MongoDB.Driver" Version="3.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\" />
+    <Folder Include="Profiles\" />
+    <Folder Include="Repositories\Contracts\" />
+    <Folder Include="Repositories\Implementation\" />
+    <Folder Include="Responses\" />
+  </ItemGroup>
+
 </Project>
