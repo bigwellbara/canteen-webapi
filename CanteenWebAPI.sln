@@ -1,9 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canteen.API", "Canteen.API\Canteen.API.csproj", "{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F} = {EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canteen.Domain", "Canteen.Domain\Canteen.Domain.csproj", "{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}"
 EndProject

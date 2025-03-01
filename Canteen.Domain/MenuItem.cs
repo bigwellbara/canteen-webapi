@@ -9,10 +9,12 @@ namespace Canteen.Domain
         public string Descripion { get; set; }
         public decimal Price { get; set; }
         public bool IsAvailable { get; set; }
-        public string ImageUrl { get; set; }
+
         public DateTime DateCreated { get; set; }
 
         //Relationships
+        public List<MenuItemImagesVideos> MenuItemImagesVideos { get; set; }
+
         public int CategoryId { get; set; } //foreign id
 
         public Category? category { get; set; }

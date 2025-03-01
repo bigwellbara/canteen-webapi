@@ -1,0 +1,16 @@
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\bin\Debug\net8.0\Canteen.DataAccessLayer.deps.json
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\bin\Debug\net8.0\Canteen.DataAccessLayer.dll
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\bin\Debug\net8.0\Canteen.DataAccessLayer.pdb
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\bin\Debug\net8.0\Canteen.Domain.dll
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\bin\Debug\net8.0\Canteen.Domain.pdb
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\obj\Debug\net8.0\Canteen.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\obj\Debug\net8.0\Canteen.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\obj\Debug\net8.0\Canteen.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\obj\Debug\net8.0\Canteen.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\obj\Debug\net8.0\Canteen.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\obj\Debug\net8.0\Canteen.DataAccessLayer.sourcelink.json
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\obj\Debug\net8.0\Canteen..EF6394FE.Up2Date
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\obj\Debug\net8.0\Canteen.DataAccessLayer.dll
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\obj\Debug\net8.0\refint\Canteen.DataAccessLayer.dll
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\obj\Debug\net8.0\Canteen.DataAccessLayer.pdb
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.DataAccessLayer\obj\Debug\net8.0\ref\Canteen.DataAccessLayer.dll
