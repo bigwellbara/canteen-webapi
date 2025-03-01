@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\source\\dotnet\\canteen-webapi\\",
+  "WorkspaceRootPath": "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\canteen.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\canteen.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\canteen.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\users\\arnoeworld\\source\\repos\\canteen-webapi\\canteen.application\\canteen.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\canteen.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BC191DF-0EE1-4296-B6EB-E2A75091CDD6}|Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.dataaccesslayer\\canteen.dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8BC191DF-0EE1-4296-B6EB-E2A75091CDD6}|Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj|solutionrelative:canteen.dataaccesslayer\\canteen.dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|c:\\users\\arnoeworld\\source\\repos\\canteen-webapi\\canteen.domain\\canteen.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|solutionrelative:canteen.domain\\canteen.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.domain\\canteen.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|solutionrelative:canteen.domain\\canteen.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\users\\arnoeworld\\source\\repos\\canteen-webapi\\canteen.api\\canteen.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\canteen.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC191DF-0EE1-4296-B6EB-E2A75091CDD6}|Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj|c:\\users\\arnoeworld\\source\\repos\\canteen-webapi\\canteen.dataaccesslayer\\canteen.dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8BC191DF-0EE1-4296-B6EB-E2A75091CDD6}|Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj|solutionrelative:canteen.dataaccesslayer\\canteen.dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +26,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Canteen.API",
-              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Canteen.API.csproj",
+              "DocumentIndex": 2,
+              "Title": "Canteen.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.API\\Canteen.API.csproj",
               "RelativeDocumentMoniker": "Canteen.API\\Canteen.API.csproj",
-              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Canteen.API.csproj",
+              "ToolTip": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.API\\Canteen.API.csproj",
               "RelativeToolTip": "Canteen.API\\Canteen.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -44,10 +64,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Canteen.Application",
-              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Canteen.Application.csproj",
+              "Title": "Canteen.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.Domain\\Canteen.Domain.csproj",
+              "RelativeDocumentMoniker": "Canteen.Domain\\Canteen.Domain.csproj",
+              "ToolTip": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.Domain\\Canteen.Domain.csproj",
+              "RelativeToolTip": "Canteen.Domain\\Canteen.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-27T14:30:11.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Canteen.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.Application\\Canteen.Application.csproj",
               "RelativeDocumentMoniker": "Canteen.Application\\Canteen.Application.csproj",
-              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Canteen.Application.csproj",
+              "ToolTip": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.Application\\Canteen.Application.csproj",
               "RelativeToolTip": "Canteen.Application\\Canteen.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -56,29 +89,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Canteen.DataAccessLayer",
-              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj",
+              "DocumentIndex": 3,
+              "Title": "Canteen.DataAccessLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj",
               "RelativeDocumentMoniker": "Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj",
-              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj",
+              "ToolTip": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj",
               "RelativeToolTip": "Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-27T14:30:31.888Z",
-              "EditorCaption": ""
-            },
+              "WhenOpened": "2025-02-27T14:30:31.888Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 92,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Canteen.Domain",
-              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Canteen.Domain.csproj",
-              "RelativeDocumentMoniker": "Canteen.Domain\\Canteen.Domain.csproj",
-              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Canteen.Domain.csproj",
-              "RelativeToolTip": "Canteen.Domain\\Canteen.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-27T14:30:11.136Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
