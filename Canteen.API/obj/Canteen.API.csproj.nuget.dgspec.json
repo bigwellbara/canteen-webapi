@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.API\\Canteen.API.csproj": {}
+    "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.API\\Canteen.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.API\\Canteen.API.csproj": {
+    "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.API\\Canteen.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.API\\Canteen.API.csproj",
+        "projectUniqueName": "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.API\\Canteen.API.csproj",
         "projectName": "Canteen.API",
-        "projectPath": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.API\\Canteen.API.csproj",
+        "projectPath": "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.API\\Canteen.API.csproj",
         "packagesPath": "C:\\Users\\Arnoeworld\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.API\\obj\\",
+        "outputPath": "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

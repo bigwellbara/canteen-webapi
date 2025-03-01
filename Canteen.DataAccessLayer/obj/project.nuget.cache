@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4yYZTb8xY4o=",
+  "dgSpecHash": "IyP+oX+irPY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arnoeworld\\Source\\Repos\\canteen-webapi\\Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arnoeworld\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Arnoeworld\\.nuget\\packages\\jwt\\11.0.0\\jwt.11.0.0.nupkg.sha512",
