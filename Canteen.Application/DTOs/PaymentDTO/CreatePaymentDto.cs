@@ -5,5 +5,7 @@
         public decimal Amount { get; set; } = _Amount;
         public int OrderId { get; set; } = _OrderId;
         public int UserId { get; set; } = _UserId;
+        public string Status { get; set; } = "Pending";
+        public DateTime PaymentRequestDate { get; set; } = DateTime.Now;
     }
 }

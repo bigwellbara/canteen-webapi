@@ -1,0 +1,8 @@
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.csproj.AssemblyReference.cache
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.AssemblyInfoInputs.cache
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.AssemblyInfo.cs
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.csproj.CoreCompileInputs.cache
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.sourcelink.json

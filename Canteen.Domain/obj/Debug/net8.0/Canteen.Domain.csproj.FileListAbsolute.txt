@@ -1,0 +1,13 @@
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\bin\Debug\net8.0\Canteen.Domain.deps.json
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\bin\Debug\net8.0\Canteen.Domain.dll
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\bin\Debug\net8.0\Canteen.Domain.pdb
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\obj\Debug\net8.0\Canteen.Domain.csproj.AssemblyReference.cache
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\obj\Debug\net8.0\Canteen.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\obj\Debug\net8.0\Canteen.Domain.AssemblyInfoInputs.cache
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\obj\Debug\net8.0\Canteen.Domain.AssemblyInfo.cs
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\obj\Debug\net8.0\Canteen.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\obj\Debug\net8.0\Canteen.Domain.sourcelink.json
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\obj\Debug\net8.0\Canteen.Domain.dll
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\obj\Debug\net8.0\refint\Canteen.Domain.dll
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\obj\Debug\net8.0\Canteen.Domain.pdb
+C:\Users\Arnoeworld\source\repos\canteen-webapi\Canteen.Domain\obj\Debug\net8.0\ref\Canteen.Domain.dll
