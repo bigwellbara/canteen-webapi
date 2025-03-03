@@ -1,3 +1,6 @@
+using System;
+using Canteen.DataAccessLayer.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+// MongoDB Configuration
+builder.Services.Configure<MongoDbSettings>(
+builder.Configuration.GetSection("MongoDbSettings"));
+builder.Services.AddSingleton<MongoDbConfig>();
+builder.Services.AddSingleton<AppDbContext>();
 
 var app = builder.Build();
 

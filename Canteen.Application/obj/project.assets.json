@@ -1518,23 +1518,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Arnoeworld\\.nuget\\packages\\": {},
+    "C:\\Users\\Software Developer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.Application\\Canteen.Application.csproj",
+      "projectUniqueName": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Canteen.Application.csproj",
       "projectName": "Canteen.Application",
-      "projectPath": "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.Application\\Canteen.Application.csproj",
-      "packagesPath": "C:\\Users\\Arnoeworld\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.Application\\obj\\",
+      "projectPath": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Canteen.Application.csproj",
+      "packagesPath": "C:\\Users\\Software Developer\\.nuget\\packages\\",
+      "outputPath": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Arnoeworld\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Software Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1550,11 +1550,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj"
+            "C:\\source\\dotnet\\canteen-webapi\\Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj": {
+              "projectPath": "C:\\source\\dotnet\\canteen-webapi\\Canteen.DataAccessLayer\\Canteen.DataAccessLayer.csproj"
             },
-            "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.Domain\\Canteen.Domain.csproj": {
-              "projectPath": "C:\\Users\\Arnoeworld\\source\\repos\\canteen-webapi\\Canteen.Domain\\Canteen.Domain.csproj"
+            "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Canteen.Domain.csproj": {
+              "projectPath": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Canteen.Domain.csproj"
             }
           }
         }
@@ -1569,7 +1569,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1612,7 +1612,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
