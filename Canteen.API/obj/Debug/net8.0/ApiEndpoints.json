@@ -1,0 +1,139 @@
+[
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.MenuItemsController",
+    "Method": "GetAllMenuItems",
+    "RelativePath": "api/v1/MenuItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.MenuItemsController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/MenuItems/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "GetAllProfiles",
+    "RelativePath": "api/v1/UserProfiles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "CreateUserProfile",
+    "RelativePath": "api/v1/UserProfiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userProfileCreated",
+        "Type": "Canteen.API.Contracts.UserProfiles.Requests.UserProfileCreateUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "GetUserProfileById",
+    "RelativePath": "api/v1/UserProfiles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "UpdateUserProfile",
+    "RelativePath": "api/v1/UserProfiles/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "userProfileUpdated",
+        "Type": "Canteen.API.Contracts.UserProfiles.Requests.UserProfileCreateUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "DeleteUserProfile",
+    "RelativePath": "api/v1/UserProfiles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V2.MenuItemsController",
+    "Method": "get_by_id",
+    "RelativePath": "api/v2/MenuItems/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V2.UserProfilesController",
+    "Method": "get_by_id",
+    "RelativePath": "api/v2/UserProfiles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

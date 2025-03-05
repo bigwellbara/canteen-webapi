@@ -6,10 +6,16 @@ C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.API.deps.js
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.API.runtimeconfig.json
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.API.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.API.pdb
+C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\AutoMapper.dll
+C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\DnsClient.dll
+C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\FluentValidation.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\JWT.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\MediatR.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -31,8 +37,10 @@ C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Swashbuckle.AspNetC
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\ZstdSharp.dll
+C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.Application.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.DataAccessLayer.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.Domain.dll
+C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.Application.pdb
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.DataAccessLayer.pdb
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.Domain.pdb
 C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.csproj.AssemblyReference.cache

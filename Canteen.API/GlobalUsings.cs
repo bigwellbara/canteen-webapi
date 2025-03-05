@@ -1,0 +1,11 @@
+﻿global using System;
+global using Canteen.DataAccessLayer.Data;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Mvc.ApiExplorer;
+global using Microsoft.AspNetCore.Mvc.Versioning;
+global using Microsoft.Extensions.Options;
+global using Canteen.API.Extensions;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.AspNetCore.Hosting;

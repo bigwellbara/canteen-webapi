@@ -1,35 +1,10 @@
-using System;
-using Canteen.DataAccessLayer.Data;
-
+//removed the usings to make them global 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-
-// MongoDB Configuration
-builder.Services.Configure<MongoDbSettings>(
-builder.Configuration.GetSection("MongoDbSettings"));
-builder.Services.AddSingleton<MongoDbConfig>();
-builder.Services.AddSingleton<AppDbContext>();
+//using extension methods to register services
+builder.RegisterServices(typeof(Program));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
+app.RegisterPipelineComponents(typeof(Program));
 app.Run();

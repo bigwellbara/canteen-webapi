@@ -11,27 +11,17 @@
     <PackageReference Include="JWT" Version="11.0.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
     <PackageReference Include="MongoDB.Driver" Version="3.2.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Features\Category\Handlers\Commands\" />
-    <Folder Include="Features\Category\Handlers\Queries\" />
-    <Folder Include="Features\MenuItem\Handlers\Commands\" />
-    <Folder Include="Features\MenuItem\Handlers\Queries\" />
-    <Folder Include="Features\OrderItem\Handlers\Commands\" />
-    <Folder Include="Features\OrderItem\Handlers\Queries\" />
-    <Folder Include="Features\Order\Handlers\Commands\" />
-    <Folder Include="Features\Order\Handlers\Queries\" />
-    <Folder Include="Features\Payment\Handlers\Commands\" />
-    <Folder Include="Features\Payment\Handlers\Queries\" />
-    <Folder Include="Features\Review\Handlers\Commands\" />
-    <Folder Include="Features\Review\Handlers\Queries\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Canteen.DataAccessLayer\Canteen.DataAccessLayer.csproj" />
     <ProjectReference Include="..\Canteen.Domain\Canteen.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CommandHandlers\MenuItemCommandHandlers\" />
   </ItemGroup>
 
 </Project>
