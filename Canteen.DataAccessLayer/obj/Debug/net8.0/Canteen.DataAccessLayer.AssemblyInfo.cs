@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Canteen.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b3bbd76103a6e6a772c9d9185645c6f950bd195")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+827a3e25cb913dd89672caecb12318b1ad5cc7ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("Canteen.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Canteen.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

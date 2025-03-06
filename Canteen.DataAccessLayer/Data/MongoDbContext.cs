@@ -16,8 +16,8 @@ namespace Canteen.DataAccessLayer.Data
             _database = mongoDbConfig.Database;
         }
 
-        public IMongoCollection<UserProfile> UserProfiles => _database.GetCollection<UserProfile>("UserProfiles");
-        public IMongoCollection<MenuItem> MenuItems => _database.GetCollection<MenuItem>("MenuItems");
+        //public IMongoCollection<UserProfile> UserProfiles => _database.GetCollection<UserProfile>("UserProfiles");
+        //public IMongoCollection<MenuItem> MenuItems => _database.GetCollection<MenuItem>("MenuItems");
 
 
         //public IMongoCollection<Category> Categories => _database.GetCollection<Category>("Categories");
@@ -26,7 +26,11 @@ namespace Canteen.DataAccessLayer.Data
         //public IMongoCollection<Payment> Payments => _database.GetCollection<Payment>("Payments");
         //public IMongoCollection<Review> Reviews => _database.GetCollection<Review>("Reviews");
 
-
+        // Generic method to get any collection
+        public IMongoCollection<T> GetCollection<T>(string collectionName)
+        {
+            return _database.GetCollection<T>(collectionName);
+        }
     }
 
  

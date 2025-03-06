@@ -59,6 +59,7 @@ namespace Canteen.API.Controllers.V1
 
         }
 
+
         [HttpGet]
         [Route(ApiRoutes.UserProfiles.IdRoute)]
         [ValidateGuid("id")]
