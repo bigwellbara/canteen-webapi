@@ -20,8 +20,4 @@
     <ProjectReference Include="..\Canteen.Domain\Canteen.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="CommandHandlers\MenuItemCommandHandlers\" />
-  </ItemGroup>
-
 </Project>

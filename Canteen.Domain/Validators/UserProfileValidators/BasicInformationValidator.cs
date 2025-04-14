@@ -13,14 +13,16 @@ namespace Canteen.Domain.Validators.UserProfileValidators
         public BasicInformationValidator()
         {
             RuleFor(infor => infor.FirstName)
-                .NotNull().WithMessage("First name is required.")
-                .MinimumLength(3).WithMessage("First name must be at least 3 characters long.")
-                .MaximumLength(50).WithMessage("First name can contain at most 50 characters long.");
+             .NotNull().WithMessage("First name is required.")
+             .MinimumLength(3).WithMessage("First name must be at least 3 characters long.")
+             .MaximumLength(50).WithMessage("First name can contain at most 50 characters.")
+             .Matches(@"^[^\d].*").WithMessage("First name cannot start with a number.");  // Rule added
 
             RuleFor(infor => infor.LastName)
                 .NotNull().WithMessage("Last name is required.")
                 .MinimumLength(3).WithMessage("Last name must be at least 3 characters long.")
-                .MaximumLength(50).WithMessage("Last name can contain at most 50 characters long.");
+                .MaximumLength(50).WithMessage("Last name can contain at most 50 characters.")
+                .Matches(@"^[^\d].*").WithMessage("Last name cannot start with a number.");  // Rule added
 
 
             RuleFor(infor => infor.EmailAddress)

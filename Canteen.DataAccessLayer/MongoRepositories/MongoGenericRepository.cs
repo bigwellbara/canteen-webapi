@@ -35,17 +35,17 @@ namespace Canteen.DataAccessLayer.MongoRepositories
 
         public async Task<T> GetByIdAsync(Guid id, CancellationToken cancellationToken = default)
         {
-            return await _collection.Find(Builders<T>.Filter.Eq("_id", id)).FirstOrDefaultAsync(cancellationToken);
+            return await _collection.Find(Builders<T>.Filter.Eq("_id", id.ToString())).FirstOrDefaultAsync(cancellationToken);
         }
 
         public async Task UpdateAsync(Guid id, T entity, CancellationToken cancellationToken = default)
         {
-            await _collection.ReplaceOneAsync(Builders<T>.Filter.Eq("_id", id), entity, cancellationToken: cancellationToken);
+            await _collection.ReplaceOneAsync(Builders<T>.Filter.Eq("_id", id.ToString()), entity, cancellationToken: cancellationToken);
         }
 
         public async Task DeleteAsync(Guid id, CancellationToken cancellationToken = default)
         {
-            await _collection.DeleteOneAsync(Builders<T>.Filter.Eq("_id", id), cancellationToken);
+            await _collection.DeleteOneAsync(Builders<T>.Filter.Eq("_id", id.ToString()), cancellationToken);
         }
     }
 }

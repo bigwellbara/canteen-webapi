@@ -3,10 +3,13 @@ using Canteen.API.Contracts.UserProfiles.Requests;
 using Canteen.API.Contracts.UserProfiles.Responses;
 using Canteen.API.Filters;
 using Canteen.Application.Commands.UserProfileCommands;
+using Canteen.Application.OperationModels;
 using Canteen.Application.Queries.UserProfileQueries;
+using Canteen.Domain.Aggregates.UserProfileAggregate;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SharpCompress.Common;
 
 namespace Canteen.API.Controllers.V1
 {
@@ -79,22 +82,175 @@ namespace Canteen.API.Controllers.V1
         }
 
 
-        [HttpPatch]
-        [Route(ApiRoutes.UserProfiles.IdRoute)]
-        [ValidateModel]
-        [ValidateGuid("id")]
-        public async Task<IActionResult> UpdateUserProfile(string id, UserProfileCreateUpdate userProfileUpdated)
-        {
-            var updateUserProfileCommand = _mapper.Map<UpdateUserProfileBasicInformationCommand>(userProfileUpdated);
-            updateUserProfileCommand.UserProfileId = Guid.Parse(id);
-            var response = await _mediator.Send(updateUserProfileCommand);
+        //[HttpPatch]
+        //[Route(ApiRoutes.UserProfiles.IdRoute)]
+        //[ValidateModel]
+        //[ValidateGuid("id")]
+        //public async Task<IActionResult> UpdateUserProfile(string id, UserProfileCreateUpdate userProfileUpdated)
+        //{
+        //    var updateUserProfileCommand = _mapper.Map<UpdateUserProfileBasicInformationCommand>(userProfileUpdated);
+        //    updateUserProfileCommand.UserProfileId = Guid.Parse(id);
+        //    var response = await _mediator.Send(updateUserProfileCommand);
 
-            if (response.IsError)
+        //    if (response.IsError)
+        //    {
+        //        return HandleErrorResponse(response.Errors);
+        //    }
+        //    return NoContent();
+        //}
+
+        // [HttpPatch("{id}")]
+        // [ValidateGuid("id")]
+        //public async Task<IActionResult> UpdateUserProfile(
+        //string id,
+        //[FromBody] UserProfileCreateUpdate request,
+        //[FromQuery] string updateField)
+        //    {
+        //        IRequest<OperationResult<UserProfile>> command = updateField.ToLower() switch
+        //        {
+        //            "firstname" => _mapper.Map<UpdateUserProfileFirstNameCommand>(request),
+        //            "lastname" => _mapper.Map<UpdateUserProfileLastNameCommand>(request),
+        //            "email" => _mapper.Map<UpdateUserProfileEmailCommand>(request),
+        //            "phone" => _mapper.Map<UpdateUserProfilePhoneCommand>(request),
+        //            "dateofbirth" => _mapper.Map<UpdateUserProfileDateOfBirthCommand>(request),
+        //            "currentcity" => _mapper.Map<UpdateUserProfileCurrentCityCommand>(request),
+        //            _ => throw new ArgumentException("Invalid update field specified")
+        //        };
+
+        //        // Set the ID on all command types
+        //        ((dynamic)command).UserProfileId = Guid.Parse(id);
+
+        //        var response = await _mediator.Send(command);
+        //        if (response.IsError) return HandleErrorResponse(response.Errors);
+        //        return NoContent();
+        //    }
+
+
+        [HttpPatch(ApiRoutes.UserProfiles.FirstNameRoute)]
+        [ValidateGuid("id")]
+        public async Task<IActionResult> UpdateFirstName(string id, [FromBody] UpdateFirstNameRequest request)
+        {
+            var command = _mapper.Map<UpdateUserProfileFirstNameCommand>(request);
+            command.UserProfileId = Guid.Parse(id);
+            var response = await _mediator.Send(command);
+            if (response.IsError) return HandleErrorResponse(response.Errors);
+            var getUserQuery = new GetProfileById { UserProfileId = Guid.Parse(id) };
+            var getResult = await _mediator.Send(getUserQuery);
+            if (getResult.IsError)
             {
-                return HandleErrorResponse(response.Errors);
+                return HandleErrorResponse(getResult.Errors);
             }
-            return NoContent();
+            return Ok(_mapper.Map<UserProfileResponse>(getResult.Payload));
         }
+
+
+        [HttpPatch(ApiRoutes.UserProfiles.LastNameRoute)]
+        [ValidateGuid("id")]
+        public async Task<IActionResult> UpdateLastName(string id, [FromBody] UpdateLastNameRequest request)
+        {
+            var command = _mapper.Map<UpdateUserProfileLastNameCommand>(request);
+            command.UserProfileId = Guid.Parse(id);
+            var response = await _mediator.Send(command);
+
+            if (response.IsError) return HandleErrorResponse(response.Errors);
+            //return NoContent();
+
+            var getUserQuery = new GetProfileById { UserProfileId = Guid.Parse(id) };
+            var getResult = await _mediator.Send(getUserQuery);
+            if (getResult.IsError)
+            {
+                return HandleErrorResponse(getResult.Errors);
+            }
+            return Ok(_mapper.Map<UserProfileResponse>(getResult.Payload));
+        }
+
+
+        [HttpPatch(ApiRoutes.UserProfiles.EmailRoute)]
+        [ValidateGuid("id")]
+        public async Task<IActionResult> UpdateEmail(string id, [FromBody] UpdateEmailAddressRequest request)
+        {
+            var command = _mapper.Map<UpdateUserProfileEmailCommand>(request);
+            command.UserProfileId = Guid.Parse(id);
+            var response = await _mediator.Send(command);
+
+            if (response.IsError) return HandleErrorResponse(response.Errors);
+            //return NoContent();
+
+            var getUserQuery = new GetProfileById { UserProfileId = Guid.Parse(id) };
+            var getResult = await _mediator.Send(getUserQuery);
+            if (getResult.IsError)
+            {
+                return HandleErrorResponse(getResult.Errors);
+            }
+            return Ok(_mapper.Map<UserProfileResponse>(getResult.Payload));
+        }
+
+
+
+        [HttpPatch(ApiRoutes.UserProfiles.PhoneRoute)]
+        [ValidateGuid("id")]
+        public async Task<IActionResult> UpdatePhone(string id, [FromBody] UpdatePhoneNumberRequest request)
+        {
+            var command = _mapper.Map<UpdateUserProfilePhoneCommand>(request);
+            command.UserProfileId = Guid.Parse(id);
+            var response = await _mediator.Send(command);
+
+            if (response.IsError) return HandleErrorResponse(response.Errors);
+            //return NoContent();
+
+            var getUserQuery = new GetProfileById { UserProfileId = Guid.Parse(id) };
+            var getResult = await _mediator.Send(getUserQuery);
+            if (getResult.IsError)
+            {
+                return HandleErrorResponse(getResult.Errors);
+            }
+            return Ok(_mapper.Map<UserProfileResponse>(getResult.Payload));
+        }
+
+
+
+        [HttpPatch(ApiRoutes.UserProfiles.DateOfBirthRoute)]
+        [ValidateGuid("id")]
+        public async Task<IActionResult> UpdateDateOfBirth(string id, [FromBody] UpdateDateOfBirthRequest request)
+        {
+            var command = _mapper.Map<UpdateUserProfileDateOfBirthCommand>(request);
+            command.UserProfileId = Guid.Parse(id);
+            var response = await _mediator.Send(command);
+
+            if (response.IsError) return HandleErrorResponse(response.Errors);
+            //return NoContent();
+
+            var getUserQuery = new GetProfileById { UserProfileId = Guid.Parse(id) };
+            var getResult = await _mediator.Send(getUserQuery);
+            if (getResult.IsError)
+            {
+                return HandleErrorResponse(getResult.Errors);
+            }
+            return Ok(_mapper.Map<UserProfileResponse>(getResult.Payload));
+        }
+
+
+        [HttpPatch(ApiRoutes.UserProfiles.CurrentCityRoute)]
+        [ValidateGuid("id")]
+        public async Task<IActionResult> UpdateCurrentCity(string id, [FromBody] UpdateCurrentCityRequest request)
+        {
+            var command = _mapper.Map<UpdateUserProfileCurrentCityCommand>(request);
+            command.UserProfileId = Guid.Parse(id);
+            var response = await _mediator.Send(command);
+
+            if (response.IsError) return HandleErrorResponse(response.Errors);
+            //return NoContent();
+
+            var getUserQuery = new GetProfileById { UserProfileId = Guid.Parse(id) };
+            var getResult = await _mediator.Send(getUserQuery);
+            if (getResult.IsError)
+            {
+                return HandleErrorResponse(getResult.Errors);
+            }
+            return Ok(_mapper.Map<UserProfileResponse>(getResult.Payload));
+        }
+
+
 
         [HttpDelete]
         [Route(ApiRoutes.UserProfiles.IdRoute)]
@@ -103,7 +259,7 @@ namespace Canteen.API.Controllers.V1
         {
             var deleteUserProfileCommand = new DeleteUserProfileCommand { UserProfileId = Guid.Parse(id) };
             var deleteUserProfileResponse = await _mediator.Send(deleteUserProfileCommand);
-            //await _mediator.Send(deleteUserProfileCommand);
+         
             if (deleteUserProfileResponse.IsError)
             {
                 return HandleErrorResponse(deleteUserProfileResponse.Errors);

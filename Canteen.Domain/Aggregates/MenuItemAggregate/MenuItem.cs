@@ -16,16 +16,15 @@ namespace Canteen.Domain.Aggregates.MenuItemAggregate
         // This will map to the _id field in MongoDB
         [BsonId]
         [BsonRepresentation(BsonType.String)]
-        public Guid MenuItemId { get; private set; }
-
-        public Guid UserProfileID { get; private set; }
+        public Guid MenuItemId { get; private set; } = Guid.NewGuid();
+        public string UserProfileID { get; private set; }
         public string Name { get; private set; }
         public string Description { get; private set; }
         public decimal Price { get; private set; }
         public string Category { get; private set; }
-        public string ImageUrl { get; private set; }
-        public DateTime DateCreated { get; private set; }
-        public DateTime LastModified { get; private set; }
+        public string? ImageUrl { get; private set; }
+        public DateTime DateCreated { get; set; } = DateTime.UtcNow;
+        public DateTime LastModified { get; set; } = DateTime.UtcNow;
 
         /// <summary>
         /// Creates a menu item
@@ -37,17 +36,18 @@ namespace Canteen.Domain.Aggregates.MenuItemAggregate
         /// <param name="category">The category where the menu item belongs to</param>
         /// <returns> < see cref="MenuItem"/>Returns if valid</returns>
         /// <exception cref="MenuItemNotValidException">Thrown if not valid</exception>
-        public static MenuItem CreateMenuItem(Guid userProfileId, string name, string description, decimal price, string category)
+        public static MenuItem CreateMenuItem(string userProfileId, string name, string description, decimal price, string category, string imageUrl)
         {
             var menuItemValidator = new MenuItemValidator();
 
             var menuItemObjectToValidate = new MenuItem
             {
-                UserProfileID = userProfileId,
+               UserProfileID=userProfileId,
                 Name = name,
                 Description = description,
                 Price = price,
-                Category = category
+                Category = category,
+                ImageUrl = imageUrl
             };
 
             var validationResult = menuItemValidator.Validate(menuItemObjectToValidate);

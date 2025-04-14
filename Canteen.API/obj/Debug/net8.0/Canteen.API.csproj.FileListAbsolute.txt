@@ -1,3 +1,10 @@
+C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.csproj.AssemblyReference.cache
+C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.AssemblyInfoInputs.cache
+C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.AssemblyInfo.cs
+C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.csproj.CoreCompileInputs.cache
+C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.MvcApplicationPartsAssemblyInfo.cache
+C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.sourcelink.json
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\appsettings.Development.json
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\appsettings.json
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.API.staticwebassets.endpoints.json
@@ -43,14 +50,7 @@ C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.Domain.dll
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.Application.pdb
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.DataAccessLayer.pdb
 C:\source\dotnet\canteen-webapi\Canteen.API\bin\Debug\net8.0\Canteen.Domain.pdb
-C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.csproj.AssemblyReference.cache
-C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.AssemblyInfoInputs.cache
-C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.AssemblyInfo.cs
-C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.csproj.CoreCompileInputs.cache
 C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.MvcApplicationPartsAssemblyInfo.cs
-C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.MvcApplicationPartsAssemblyInfo.cache
-C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\Canteen.API.sourcelink.json
 C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\scopedcss\bundle\Canteen.API.styles.css
 C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\source\dotnet\canteen-webapi\Canteen.API\obj\Debug\net8.0\staticwebassets.development.json
