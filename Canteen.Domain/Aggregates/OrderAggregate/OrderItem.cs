@@ -21,7 +21,7 @@ namespace Canteen.Domain.Aggregates.OrderAggregate
         public string Name { get; set; }
         public decimal Price { get; set; }
         public int Quantity { get; set; }
-    }
+    
 
 
      public static OrderItem CreateOrderItem(string menuItemId,string name, decimal price, int quantity)
@@ -53,5 +53,6 @@ namespace Canteen.Domain.Aggregates.OrderAggregate
 
             throw orderItemException;
         }
+    }
 
     }

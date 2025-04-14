@@ -7,7 +7,6 @@ using Canteen.Application.Commands.OrderItemCommands;
 using Canteen.Application.Enums;
 using Canteen.Application.OperationModels;
 using Canteen.DataAccessLayer.MongoRepositories;
-using Canteen.Domain.Aggregates.MenuItemAggregate.OrderAggregate;
 using Canteen.Domain.Aggregates.OrderAggregate;
 using Canteen.Domain.Exceptions;
 using MediatR;

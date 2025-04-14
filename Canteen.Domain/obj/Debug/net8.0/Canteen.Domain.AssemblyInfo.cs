@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Canteen.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b29f6e639f2b865645eeb32ae2a54d845a33ec53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d095e4f225de75dd8dfc5afe3ce99dcae510a555")]
 [assembly: System.Reflection.AssemblyProductAttribute("Canteen.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Canteen.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
