@@ -1,0 +1,428 @@
+[
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.MenuItemsController",
+    "Method": "UpdateDescription",
+    "RelativePath": "{id}/description",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Canteen.API.Contracts.MenuItems.Requests.UpdateDescriptionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.MenuItemsController",
+    "Method": "UpdateName",
+    "RelativePath": "{id}/name",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Canteen.API.Contracts.MenuItems.Requests.UpdateNameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.MenuItemsController",
+    "Method": "UpdatePrice",
+    "RelativePath": "{id}/price",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Canteen.API.Contracts.MenuItems.Requests.UpdatePriceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.OrdersController",
+    "Method": "UpdateOrderStatus",
+    "RelativePath": "{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Canteen.API.Contracts.Order.Requests.UpdateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.OrderItemsController",
+    "Method": "AddOrderItem",
+    "RelativePath": "api/OrderItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Canteen.API.Contracts.OrderItems.Requests.AddOrderItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.OrderItemsController",
+    "Method": "GetAllOrderItems",
+    "RelativePath": "api/OrderItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.OrderItemsController",
+    "Method": "GetById",
+    "RelativePath": "api/OrderItems/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.OrdersController",
+    "Method": "CreateNewOrder",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderRequest",
+        "Type": "Canteen.API.Contracts.Order.Requests.CreateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.OrdersController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.OrdersController",
+    "Method": "GetById",
+    "RelativePath": "api/Orders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.MenuItemsController",
+    "Method": "CreateMenuItem",
+    "RelativePath": "api/v1/MenuItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMenuItemRequest",
+        "Type": "Canteen.API.Contracts.MenuItems.Requests.CreateMenuItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.MenuItemsController",
+    "Method": "GetAllMenuItems",
+    "RelativePath": "api/v1/MenuItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.MenuItemsController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/MenuItems/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "GetAllProfiles",
+    "RelativePath": "api/v1/UserProfiles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "CreateUserProfile",
+    "RelativePath": "api/v1/UserProfiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userProfileCreated",
+        "Type": "Canteen.API.Contracts.UserProfiles.Requests.UserProfileCreateUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "GetUserProfileById",
+    "RelativePath": "api/v1/UserProfiles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "DeleteUserProfile",
+    "RelativePath": "api/v1/UserProfiles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "UpdateCurrentCity",
+    "RelativePath": "api/v1/UserProfiles/{id}/currentCity",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Canteen.API.Contracts.UserProfiles.Requests.UpdateCurrentCityRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "UpdateDateOfBirth",
+    "RelativePath": "api/v1/UserProfiles/{id}/dateOfBirth",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Canteen.API.Contracts.UserProfiles.Requests.UpdateDateOfBirthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "UpdateEmail",
+    "RelativePath": "api/v1/UserProfiles/{id}/email",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Canteen.API.Contracts.UserProfiles.Requests.UpdateEmailAddressRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "UpdateFirstName",
+    "RelativePath": "api/v1/UserProfiles/{id}/firstName",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Canteen.API.Contracts.UserProfiles.Requests.UpdateFirstNameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "UpdateLastName",
+    "RelativePath": "api/v1/UserProfiles/{id}/lastName",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Canteen.API.Contracts.UserProfiles.Requests.UpdateLastNameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V1.UserProfilesController",
+    "Method": "UpdatePhone",
+    "RelativePath": "api/v1/UserProfiles/{id}/phone",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Canteen.API.Contracts.UserProfiles.Requests.UpdatePhoneNumberRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V2.MenuItemsController",
+    "Method": "get_by_id",
+    "RelativePath": "api/v2/MenuItems/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Canteen.API.Controllers.V2.UserProfilesController",
+    "Method": "get_by_id",
+    "RelativePath": "api/v2/UserProfiles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,517 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\source\\dotnet\\canteen-webapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\queryhandlers\\orderqueryhandlers\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\queryhandlers\\orderqueryhandlers\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\queries\\orderqueries\\getorderbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\queries\\orderqueries\\getorderbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\controllers\\v1\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\controllers\\v1\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\contracts\\order\\responses\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\contracts\\order\\responses\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\queryhandlers\\orderitemqueryhandlers\\getorderitembyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\queryhandlers\\orderitemqueryhandlers\\getorderitembyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\mappings\\ordermappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\mappings\\ordermappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\contracts\\orderitems\\responses\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\contracts\\orderitems\\responses\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.domain\\aggregates\\orderaggregate\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|solutionrelative:canteen.domain\\aggregates\\orderaggregate\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.domain\\aggregates\\orderaggregate\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|solutionrelative:canteen.domain\\aggregates\\orderaggregate\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\queryhandlers\\orderqueryhandlers\\getallordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\queryhandlers\\orderqueryhandlers\\getallordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\queries\\orderqueries\\getallorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\queries\\orderqueries\\getallorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\queryhandlers\\orderitemqueryhandlers\\getallorderitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\queryhandlers\\orderitemqueryhandlers\\getallorderitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\queries\\orderitermqueries\\getallorderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\queries\\orderitermqueries\\getallorderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\controllers\\v1\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\controllers\\v1\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\extensions\\registerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\extensions\\registerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\commandhandlers\\ordercommandhandlers\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\commandhandlers\\ordercommandhandlers\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\contracts\\orderitems\\requests\\addorderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\contracts\\orderitems\\requests\\addorderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\contracts\\order\\requests\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\contracts\\order\\requests\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\contracts\\common\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\contracts\\common\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.domain\\validators\\ordervalidators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|solutionrelative:canteen.domain\\validators\\ordervalidators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\commands\\orderitemcommands\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\commands\\orderitemcommands\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\contracts\\order\\requests\\updateorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\contracts\\order\\requests\\updateorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.domain\\aggregates\\menuitemaggregate\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|solutionrelative:canteen.domain\\aggregates\\menuitemaggregate\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\mappings\\orderitemmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\mappings\\orderitemmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.domain\\aggregates\\orderaggregate\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4896BCC-D920-475E-BF84-AE6F1A0E18D5}|Canteen.Domain\\Canteen.Domain.csproj|solutionrelative:canteen.domain\\aggregates\\orderaggregate\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.api\\controllers\\v1\\menuitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD25098-AB8C-4886-9F1E-0AE1574CB63D}|Canteen.API\\Canteen.API.csproj|solutionrelative:canteen.api\\controllers\\v1\\menuitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\commandhandlers\\ordercommandhandlers\\updateorderstatuscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\commandhandlers\\ordercommandhandlers\\updateorderstatuscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\commandhandlers\\menuitemcommandhandlers\\basemenuitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\commandhandlers\\menuitemcommandhandlers\\basemenuitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\commandhandlers\\menuitemcommandhandlers\\updatemenuitempricecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\commandhandlers\\menuitemcommandhandlers\\updatemenuitempricecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\commandhandlers\\menuitemcommandhandlers\\updatemenuitemnamecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\commandhandlers\\menuitemcommandhandlers\\updatemenuitemnamecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|c:\\source\\dotnet\\canteen-webapi\\canteen.application\\commandhandlers\\orderitemcommandhandlers\\createorderitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE12D398-7636-44DA-A5B8-6C3B1EE18A6F}|Canteen.Application\\Canteen.Application.csproj|solutionrelative:canteen.application\\commandhandlers\\orderitemcommandhandlers\\createorderitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\Order\\Responses\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Contracts\\Order\\Responses\\OrderResponse.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\Order\\Responses\\OrderResponse.cs",
+              "RelativeToolTip": "Canteen.API\\Contracts\\Order\\Responses\\OrderResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:38:29.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetOrderByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\QueryHandlers\\OrderQueryHandlers\\GetOrderByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\QueryHandlers\\OrderQueryHandlers\\GetOrderByIdQueryHandler.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\QueryHandlers\\OrderQueryHandlers\\GetOrderByIdQueryHandler.cs",
+              "RelativeToolTip": "Canteen.Application\\QueryHandlers\\OrderQueryHandlers\\GetOrderByIdQueryHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:22:29.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetOrderById.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Queries\\OrderQueries\\GetOrderById.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\Queries\\OrderQueries\\GetOrderById.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Queries\\OrderQueries\\GetOrderById.cs",
+              "RelativeToolTip": "Canteen.Application\\Queries\\OrderQueries\\GetOrderById.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:09:42.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderItemResponse.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\OrderItems\\Responses\\OrderItemResponse.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Contracts\\OrderItems\\Responses\\OrderItemResponse.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\OrderItems\\Responses\\OrderItemResponse.cs",
+              "RelativeToolTip": "Canteen.API\\Contracts\\OrderItems\\Responses\\OrderItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:48:50.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderMappings.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Mappings\\OrderMappings.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Mappings\\OrderMappings.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Mappings\\OrderMappings.cs",
+              "RelativeToolTip": "Canteen.API\\Mappings\\OrderMappings.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T14:00:40.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Controllers\\V1\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Controllers\\V1\\OrdersController.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Controllers\\V1\\OrdersController.cs",
+              "RelativeToolTip": "Canteen.API\\Controllers\\V1\\OrdersController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwE4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:30:20.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetOrderItemByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\QueryHandlers\\OrderItemQueryHandlers\\GetOrderItemByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\QueryHandlers\\OrderItemQueryHandlers\\GetOrderItemByIdQueryHandler.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\QueryHandlers\\OrderItemQueryHandlers\\GetOrderItemByIdQueryHandler.cs",
+              "RelativeToolTip": "Canteen.Application\\QueryHandlers\\OrderItemQueryHandlers\\GetOrderItemByIdQueryHandler.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:29:36.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetAllOrdersQueryHandler.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\QueryHandlers\\OrderQueryHandlers\\GetAllOrdersQueryHandler.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\QueryHandlers\\OrderQueryHandlers\\GetAllOrdersQueryHandler.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\QueryHandlers\\OrderQueryHandlers\\GetAllOrdersQueryHandler.cs",
+              "RelativeToolTip": "Canteen.Application\\QueryHandlers\\OrderQueryHandlers\\GetAllOrdersQueryHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:45:32.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetAllOrderItemsQueryHandler.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\QueryHandlers\\OrderItemQueryHandlers\\GetAllOrderItemsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\QueryHandlers\\OrderItemQueryHandlers\\GetAllOrderItemsQueryHandler.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\QueryHandlers\\OrderItemQueryHandlers\\GetAllOrderItemsQueryHandler.cs",
+              "RelativeToolTip": "Canteen.Application\\QueryHandlers\\OrderItemQueryHandlers\\GetAllOrderItemsQueryHandler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:45:57.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Aggregates\\OrderAggregate\\Order.cs",
+              "RelativeDocumentMoniker": "Canteen.Domain\\Aggregates\\OrderAggregate\\Order.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Aggregates\\OrderAggregate\\Order.cs",
+              "RelativeToolTip": "Canteen.Domain\\Aggregates\\OrderAggregate\\Order.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwB8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T07:49:40.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Aggregates\\OrderAggregate\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Canteen.Domain\\Aggregates\\OrderAggregate\\OrderItem.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Aggregates\\OrderAggregate\\OrderItem.cs",
+              "RelativeToolTip": "Canteen.Domain\\Aggregates\\OrderAggregate\\OrderItem.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:49:04.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetAllOrderItems.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Queries\\OrderItermQueries\\GetAllOrderItems.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\Queries\\OrderItermQueries\\GetAllOrderItems.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Queries\\OrderItermQueries\\GetAllOrderItems.cs",
+              "RelativeToolTip": "Canteen.Application\\Queries\\OrderItermQueries\\GetAllOrderItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T14:21:55.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetAllOrders.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Queries\\OrderQueries\\GetAllOrders.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\Queries\\OrderQueries\\GetAllOrders.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Queries\\OrderQueries\\GetAllOrders.cs",
+              "RelativeToolTip": "Canteen.Application\\Queries\\OrderQueries\\GetAllOrders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T14:24:25.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterExtensions.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Extensions\\RegisterExtensions.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Extensions\\RegisterExtensions.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Extensions\\RegisterExtensions.cs",
+              "RelativeToolTip": "Canteen.API\\Extensions\\RegisterExtensions.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:59:23.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderItemsController.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Controllers\\V1\\OrderItemsController.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Controllers\\V1\\OrderItemsController.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Controllers\\V1\\OrderItemsController.cs",
+              "RelativeToolTip": "Canteen.API\\Controllers\\V1\\OrderItemsController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T14:35:21.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateOrderRequest.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\Order\\Requests\\CreateOrderRequest.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Contracts\\Order\\Requests\\CreateOrderRequest.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\Order\\Requests\\CreateOrderRequest.cs",
+              "RelativeToolTip": "Canteen.API\\Contracts\\Order\\Requests\\CreateOrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T07:35:34.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddOrderItemRequest.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\OrderItems\\Requests\\AddOrderItemRequest.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Contracts\\OrderItems\\Requests\\AddOrderItemRequest.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\OrderItems\\Requests\\AddOrderItemRequest.cs",
+              "RelativeToolTip": "Canteen.API\\Contracts\\OrderItems\\Requests\\AddOrderItemRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T07:43:21.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateOrderCommandHandler.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\OrderCommandHandlers\\CreateOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\CommandHandlers\\OrderCommandHandlers\\CreateOrderCommandHandler.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\OrderCommandHandlers\\CreateOrderCommandHandler.cs",
+              "RelativeToolTip": "Canteen.Application\\CommandHandlers\\OrderCommandHandlers\\CreateOrderCommandHandler.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwvz0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T08:40:27.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Commands\\OrderItemCommands\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\Commands\\OrderItemCommands\\CreateOrderCommand.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\Commands\\OrderItemCommands\\CreateOrderCommand.cs",
+              "RelativeToolTip": "Canteen.Application\\Commands\\OrderItemCommands\\CreateOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T08:38:53.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\Common\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Contracts\\Common\\ErrorResponse.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\Common\\ErrorResponse.cs",
+              "RelativeToolTip": "Canteen.API\\Contracts\\Common\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:10:06.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderValidator.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Validators\\OrderValidators\\OrderValidator.cs",
+              "RelativeDocumentMoniker": "Canteen.Domain\\Validators\\OrderValidators\\OrderValidator.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Validators\\OrderValidators\\OrderValidator.cs",
+              "RelativeToolTip": "Canteen.Domain\\Validators\\OrderValidators\\OrderValidator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T13:49:32.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateOrderRequest.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\Order\\Requests\\UpdateOrderRequest.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Contracts\\Order\\Requests\\UpdateOrderRequest.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Contracts\\Order\\Requests\\UpdateOrderRequest.cs",
+              "RelativeToolTip": "Canteen.API\\Contracts\\Order\\Requests\\UpdateOrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:30:48.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderItemMappings.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Mappings\\OrderItemMappings.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Mappings\\OrderItemMappings.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Mappings\\OrderItemMappings.cs",
+              "RelativeToolTip": "Canteen.API\\Mappings\\OrderItemMappings.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAABRwA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T00:37:29.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Aggregates\\MenuItemAggregate\\MenuItem.cs",
+              "RelativeDocumentMoniker": "Canteen.Domain\\Aggregates\\MenuItemAggregate\\MenuItem.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Aggregates\\MenuItemAggregate\\MenuItem.cs",
+              "RelativeToolTip": "Canteen.Domain\\Aggregates\\MenuItemAggregate\\MenuItem.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:12:04.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Aggregates\\OrderAggregate\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Canteen.Domain\\Aggregates\\OrderAggregate\\OrderStatus.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Domain\\Aggregates\\OrderAggregate\\OrderStatus.cs",
+              "RelativeToolTip": "Canteen.Domain\\Aggregates\\OrderAggregate\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:56:48.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateOrderStatusCommandHandler.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\OrderCommandHandlers\\UpdateOrderStatusCommandHandler.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\CommandHandlers\\OrderCommandHandlers\\UpdateOrderStatusCommandHandler.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\OrderCommandHandlers\\UpdateOrderStatusCommandHandler.cs",
+              "RelativeToolTip": "Canteen.Application\\CommandHandlers\\OrderCommandHandlers\\UpdateOrderStatusCommandHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAxwEEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:59:18.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MenuItemsController.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Controllers\\V1\\MenuItemsController.cs",
+              "RelativeDocumentMoniker": "Canteen.API\\Controllers\\V1\\MenuItemsController.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.API\\Controllers\\V1\\MenuItemsController.cs",
+              "RelativeToolTip": "Canteen.API\\Controllers\\V1\\MenuItemsController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAIwIAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:44:21.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BaseMenuItemCommandHandler.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\BaseMenuItemCommandHandler.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\BaseMenuItemCommandHandler.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\BaseMenuItemCommandHandler.cs",
+              "RelativeToolTip": "Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\BaseMenuItemCommandHandler.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:09:35.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateMenuItemPriceCommandHandler.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\UpdateMenuItemPriceCommandHandler.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\UpdateMenuItemPriceCommandHandler.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\UpdateMenuItemPriceCommandHandler.cs",
+              "RelativeToolTip": "Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\UpdateMenuItemPriceCommandHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:09:15.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateMenuItemNameCommandHandler.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\UpdateMenuItemNameCommandHandler.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\UpdateMenuItemNameCommandHandler.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\UpdateMenuItemNameCommandHandler.cs",
+              "RelativeToolTip": "Canteen.Application\\CommandHandlers\\MenuItemCommandHandlers\\UpdateMenuItemNameCommandHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:09:01.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateOrderItemCommandHandler.cs",
+              "DocumentMoniker": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\OrderItemCommandHandlers\\CreateOrderItemCommandHandler.cs",
+              "RelativeDocumentMoniker": "Canteen.Application\\CommandHandlers\\OrderItemCommandHandlers\\CreateOrderItemCommandHandler.cs",
+              "ToolTip": "C:\\source\\dotnet\\canteen-webapi\\Canteen.Application\\CommandHandlers\\OrderItemCommandHandlers\\CreateOrderItemCommandHandler.cs",
+              "RelativeToolTip": "Canteen.Application\\CommandHandlers\\OrderItemCommandHandlers\\CreateOrderItemCommandHandler.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T08:40:38.465Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

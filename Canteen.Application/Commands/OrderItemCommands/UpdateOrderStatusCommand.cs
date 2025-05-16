@@ -13,6 +13,6 @@ namespace Canteen.Application.Commands.OrderItemCommands
     public class UpdateOrderStatusCommand :IRequest<OperationResult<Order>>
     {
         public Guid OrderId { get; set; }
-        public string NewStatus { get; set; }
+        public OrderStatus NewStatus { get; set; }
     }
 }

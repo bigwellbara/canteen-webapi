@@ -28,6 +28,8 @@
 
         public static class Orders
         {
+            public const string IdRoute = "{id}";
+            public const string StatusRoute = "/{id}/status";
             public const string Create = OrdersBase;
             public const string GetById = OrdersBase + "/{id}";
             public const string UpdateStatus = OrdersBase + "/{id}/status";

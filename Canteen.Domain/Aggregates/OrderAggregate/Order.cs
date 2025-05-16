@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Canteen.Domain.Aggregates.OrderAggregate;
 using Canteen.Domain.Exceptions;
 using Canteen.Domain.Validators.OrderValidators;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using OrderItem = Canteen.Domain.Aggregates.OrderAggregate.OrderItem;
 
@@ -18,10 +19,11 @@ namespace Canteen.Domain.Aggregates.MenuItemAggregate.OrderAggregate
         {
         
         }
-
+        [BsonRepresentation(BsonType.String)]
         [BsonId]
         public Guid OrderId { get; private set; }
 
+        [BsonRepresentation(BsonType.String)]
         public Guid UserProfileId { get; private set; }
         public List<OrderItem> Items { get; private set; }
         public OrderStatus Status { get; private set; }
@@ -38,8 +40,17 @@ namespace Canteen.Domain.Aggregates.MenuItemAggregate.OrderAggregate
             List<OrderItem> items,
             OrderStatus status = OrderStatus.Pending)
         {
+
+            foreach (var item in items)
+            {
+                if (item.OrderItemId == Guid.Empty)
+                {
+                    item.OrderItemId = Guid.NewGuid();
+                }
+            }
             var order = new Order
             {
+
                 OrderId = Guid.NewGuid(),
                 UserProfileId = userProfileId,
                 Items = items,
@@ -61,7 +72,7 @@ namespace Canteen.Domain.Aggregates.MenuItemAggregate.OrderAggregate
 
             if (!validationResult.IsValid)
             {
-                var exception = new OrderNotValidException("Order validation failed");
+                var exception = new OrderNotValidException("Order validation failed4");
                 foreach (var error in validationResult.Errors)
                 {
                     exception.validationErrors.Add(error.ErrorMessage);
